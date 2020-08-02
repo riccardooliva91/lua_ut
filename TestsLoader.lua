@@ -21,7 +21,7 @@ function TestsLoader()
 			error(' At the moment only windows is supported.')
 		end
 
-		local pfile = popen('dir .\\test /a-D /S /B')
+		local pfile = popen('dir .\\lua_ut /a-D /S /B')
 		for filename in pfile:lines() do
 			if string.match(filename, 'test[-][A-Za-z]') then
 				local i  = string.find(filename, '\\test\\') + 1

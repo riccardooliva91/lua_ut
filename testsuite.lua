@@ -1,5 +1,5 @@
-require("test.TestsLoader")
-require("test.TestRunner")
+require("lua_ut.TestsLoader")
+require("lua_ut.TestRunner")
 
 local suite  = TestsLoader()
 local runner = TestRunner(suite.getTests())
