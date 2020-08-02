@@ -180,7 +180,7 @@ function Test()
 		end
 
 		local failure = {
-			test    = debug.getinfo(3).source,
+			test    = debug.getinfo(3).source .. ':' .. debug.getinfo(3).linedefined,
 			message = message,
 		}
 
