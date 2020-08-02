@@ -24,7 +24,7 @@ function TestsLoader()
 		local pfile = popen('dir .\\lua_ut /a-D /S /B')
 		for filename in pfile:lines() do
 			if string.match(filename, 'test[-][A-Za-z]') then
-				local i  = string.find(filename, '\\test\\') + 1
+				local i  = string.find(filename, '\\lua_ut\\') + 1
 				filename = string.sub(filename, i)
 				filename = string.gsub(filename, '.lua', '')
 				filename = string.gsub(filename, '\\', '.')
