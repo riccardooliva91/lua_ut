@@ -6,7 +6,7 @@ I'm not a Lua programmer (I use this just for side projects when I need to). If 
 contribute, or if you have suggestions, [contact me](https://github.com/riccardooliva91)!
 
 ## Documentation
-The docs are available in the [repo's wiki](https://github.com/riccardooliva91/lua-ut/wiki).
+The docs are available in the [repo's wiki](https://github.com/riccardooliva91/lua_ut/wiki).
 
 ## Contributions
 I gladly accept PRs and suggestions, if you want to talk you can contact me via email, check my profile for 
