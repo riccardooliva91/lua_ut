@@ -62,7 +62,7 @@ function Test()
 	--
 	-- @return void
 	function self.assertIsNil(value)
-		local result = nil == type(value)
+		local result = nil == value
 		if result then
 			self.markSuccess()
 		else
