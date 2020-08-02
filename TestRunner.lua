@@ -24,7 +24,7 @@ function TestRunner(list)
 	--
 	-- @return void
 	function self.run()
-		print('Running Emma\'s test suite...')
+		print('Running test suite...')
 		print(string.format('%s test classes found.', #tests))
 
 		local test
